@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB0D0D35-E14B-5717-8076-F6941AE7ADCF" name="RadURes">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>C14F7CA4-E9D5-04CE-7C5E-DB0F12407FF8</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JMBG" id="35A57DE0-8A73-8D83-CB36-5D391D29E6A2">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>9A64D8CA-43BC-D10F-3100-E69CF0DAB254</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E89F38E-7762-006D-9CFB-1C885CCE8D26" referredColumn="173AAF15-512B-B8B6-74C6-89A780DF32A7"/>
+</associations>
+</Column>
+<Column name="R_MES" id="21095079-0E99-0D72-59A2-B3DD78E06F53">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>E330CBDF-2786-C228-043A-51A21E4725FD</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>73914544-22CD-0CAE-2BAF-3C63101CB810</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Restoran_ID_R" id="3D455BF0-6495-F65D-C1AC-922CB12C125C">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>74850F5C-C4EA-5B99-6D0C-F38EE5451528</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BA85DF8-F596-516B-0EAB-5FB7A88A45CD" referredColumn="BDC6CF9A-9735-67F9-E321-F46568250870"/>
+</associations>
+</Column>
+<Column name="Restoran_Hotel_ID_H" id="424E560A-9893-5D91-4B28-2C69B2033FFB">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>64B045AB-DD9A-29EF-BE93-338A2CB70D00</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BA85DF8-F596-516B-0EAB-5FB7A88A45CD" referredColumn="A45B15AF-F790-D094-7127-8BAEC5A0D0B1"/>
+</associations>
+</Column>
+<Column name="ID_H" id="3AB1E20E-10F7-18EB-385C-CBE730A7BC0A">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>652BD2E2-C962-6660-AEB6-DBDEA42D5A8F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E89F38E-7762-006D-9CFB-1C885CCE8D26" referredColumn="FF457CD5-D981-8838-8E4A-6A4FCB0956AE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4244806-1E98-D4F2-84EF-0F86573B465A" name="RadURes_PK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>A3E68771-17B1-7F2C-753C-BE825EE2B8E9</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35A57DE0-8A73-8D83-CB36-5D391D29E6A2"/>
+<colUsage columnID="3AB1E20E-10F7-18EB-385C-CBE730A7BC0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E92C066-6AB9-9112-0B0E-DBEE8803C8AA" name="RadURes_Zaposleni_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>5CBC58E7-1283-F246-75ED-DD0F8EC6B268</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35A57DE0-8A73-8D83-CB36-5D391D29E6A2"/>
+<colUsage columnID="3AB1E20E-10F7-18EB-385C-CBE730A7BC0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9036CF44-B56A-6916-CDA0-046EDB309871" name="RadURes_Restoran_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>0762B37E-4064-6FEE-2190-2CC6BE755085</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D455BF0-6495-F65D-C1AC-922CB12C125C"/>
+<colUsage columnID="424E560A-9893-5D91-4B28-2C69B2033FFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

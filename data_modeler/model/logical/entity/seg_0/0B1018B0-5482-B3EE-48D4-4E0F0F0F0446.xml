@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B1018B0-5482-B3EE-48D4-4E0F0F0F0446" name="Sprat">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:04:14 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_S" id="7CE17267-301C-81FA-06EA-C453CB369B6F">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:05:29 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="R_BR" id="519F1922-AB5E-BEEA-B1F7-14652B9461D9">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:05:57 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BR_S" id="71DC5B12-6352-AFC4-2889-ADC891523118">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:06:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_H" id="0C42BE70-E9E7-BAFF-A356-4F4CFF6FB66C">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:07:02 UTC</createdTime>
+<generatorID>4FCCA428-0753-C077-840D-BDBBACF60841</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<referedAttribute>55E46994-1D42-A9A2-C932-6B4C3A99DD34</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2D92F52A-2B1C-64F9-F20D-F7E77343B8E3" name="Sprat PK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:05:40 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7CE17267-301C-81FA-06EA-C453CB369B6F</attributeRef>
+<attributeRef>0C42BE70-E9E7-BAFF-A356-4F4CFF6FB66C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

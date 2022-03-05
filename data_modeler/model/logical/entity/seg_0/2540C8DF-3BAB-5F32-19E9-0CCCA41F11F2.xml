@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2540C8DF-3BAB-5F32-19E9-0CCCA41F11F2" name="Meni">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 13:09:28 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_M" id="51298BF5-8D9B-6771-63AD-9B08EF2E2BB3">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 13:09:36 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAT" id="54CBE9EF-526E-8DDD-3260-AF3642CF34FB">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 13:09:50 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2CE6F561-BCCF-45E8-F405-554796AC8597" name="Meni PK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 13:09:47 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51298BF5-8D9B-6771-63AD-9B08EF2E2BB3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

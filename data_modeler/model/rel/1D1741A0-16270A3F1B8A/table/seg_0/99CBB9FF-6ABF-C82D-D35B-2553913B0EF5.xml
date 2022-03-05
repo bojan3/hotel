@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99CBB9FF-6ABF-C82D-D35B-2553913B0EF5" name="Sprat">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>0B1018B0-5482-B3EE-48D4-4E0F0F0F0446</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_S" id="333D3253-A347-F290-B9CD-9A71B7E82E7E">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>7CE17267-301C-81FA-06EA-C453CB369B6F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="R_BR" id="61DC7C40-512D-E49E-86AD-D26F6464BAAE">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>519F1922-AB5E-BEEA-B1F7-14652B9461D9</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BR_S" id="1D347B32-6C1D-4F3A-089F-2F60C6BBB852">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>71DC5B12-6352-AFC4-2889-ADC891523118</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hotel_ID_H" id="DA44D9A0-069B-4437-BF48-50B6A04ACD7A">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>0C42BE70-E9E7-BAFF-A356-4F4CFF6FB66C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0ECEC24D-5C75-77A3-4BAA-95090165AC37" referredColumn="A7284B02-2331-CA3A-4DD6-D55641298E77"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3843C8BB-D711-5AA1-4C48-C6815162D60D" name="Sprat_PK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>2D92F52A-2B1C-64F9-F20D-F7E77343B8E3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="333D3253-A347-F290-B9CD-9A71B7E82E7E"/>
+<colUsage columnID="DA44D9A0-069B-4437-BF48-50B6A04ACD7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A591B02-B113-39CA-5921-678BFA1B6370" name="Sprat_Hotel_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>4FCCA428-0753-C077-840D-BDBBACF60841</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA44D9A0-069B-4437-BF48-50B6A04ACD7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

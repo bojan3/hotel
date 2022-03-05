@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="model" id="F1130399-4ADA-AE9E-2345-1D9343A31694" version="3.5">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 11:36:56 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F1130399-4ADA-AE9E-2345-1D9343A31694</designId>
+</OSDM_Design>

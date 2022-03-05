@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="izdaje" directorySegmentName="seg_0" id="451B172F-B0B6-7CA3-9A73-13CC44FD81DF">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 17:01:59 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<sourcePk>403298E3-FBF7-D6AD-A331-FDC98BEB8020</sourcePk>
+<targetPk>A3E68771-17B1-7F2C-753C-BE825EE2B8E9</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2475EE36-54B1-8DA0-663E-F01C8476F736</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D50D16E0-BBEC-F85B-0144-0F875C0B5602</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

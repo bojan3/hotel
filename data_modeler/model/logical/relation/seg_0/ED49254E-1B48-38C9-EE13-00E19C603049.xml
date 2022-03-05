@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sadrži" directorySegmentName="seg_0" id="ED49254E-1B48-38C9-EE13-00E19C603049">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 13:24:05 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B3BD8ABD-B3F8-E0AD-4B97-311FD1B63BC1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2540C8DF-3BAB-5F32-19E9-0CCCA41F11F2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="ID" id="C3F3B6B1-D773-5C0F-E932-D5A17409A7D0">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 13:28:42 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

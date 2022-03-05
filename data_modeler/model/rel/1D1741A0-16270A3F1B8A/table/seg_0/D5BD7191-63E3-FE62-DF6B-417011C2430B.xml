@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5BD7191-63E3-FE62-DF6B-417011C2430B" name="sadrži">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Jelo_ID_J" id="D730F853-F8EF-B745-B383-FEC26B11F922">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9AAA5AA-5B15-D05D-BECA-600999EE3816" referredColumn="FE9DBD57-1A46-6AA7-56A0-1C8C566DC050"/>
+</associations>
+</Column>
+<Column name="Meni_ID_M" id="45F0331B-DF20-AC33-98F3-3AB435ADC96D">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="084AEB68-C6D1-9D62-810B-27E502B70F17" referredColumn="4E404864-3C15-5035-69E2-68B03B29FED6"/>
+</associations>
+</Column>
+<Column name="ID" id="156B537A-B3D1-3814-441C-403519B7DF2B">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>C3F3B6B1-D773-5C0F-E932-D5A17409A7D0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53494CF0-6FA5-E43A-3339-9AB464FF8192" name="sadrži_PK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D730F853-F8EF-B745-B383-FEC26B11F922"/>
+<colUsage columnID="45F0331B-DF20-AC33-98F3-3AB435ADC96D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE9F30BD-D7FA-8A54-5212-3039C15A0879" name="sadrži_Jelo_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>ED49254E-1B48-38C9-EE13-00E19C603049</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D730F853-F8EF-B745-B383-FEC26B11F922"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85101FFE-6686-407B-5C29-F5454731D0EE" name="sadrži_Meni_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>ED49254E-1B48-38C9-EE13-00E19C603049</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45F0331B-DF20-AC33-98F3-3AB435ADC96D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

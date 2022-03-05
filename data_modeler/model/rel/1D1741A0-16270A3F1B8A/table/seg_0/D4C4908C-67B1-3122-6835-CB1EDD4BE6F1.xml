@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4C4908C-67B1-3122-6835-CB1EDD4BE6F1" name="Odseda">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>B0B93E48-199A-EB27-0CDE-F2A334366E4E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Klijent_JMBG" id="113C1558-EAC1-F70E-D312-F4352C252314">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>2AEE4A2A-FD2A-412F-93C7-B629AF298298</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F130E25-8200-CF0E-015D-62374CA3220A" referredColumn="F8AB906D-11A5-E804-83E6-1F809D939539"/>
+</associations>
+</Column>
+<Column name="Bazen_ID_B" id="8150FBC6-09F6-2B30-287D-4EA3C2D828BD">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>622D68D7-A62E-CEDC-1944-4BF11E5A9DD2</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AACF8AF-6894-8D17-C06F-D5852632D55F" referredColumn="AE9A18EF-0C42-5B84-B882-0B35B4F9AA2B"/>
+</associations>
+</Column>
+<Column name="ProgramIshrane_ID_P" id="940020AB-F691-C0CD-7A9B-FFEF9EB21B65">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>76553D76-1C90-1740-A8EB-7F8C300A4672</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90B91B4D-F0BB-0E86-E298-25023015A6F4" referredColumn="7BA48649-65BF-FB3C-9F66-2DCCA9962415"/>
+</associations>
+</Column>
+<Column name="Soba_Sprat_ID_S" id="DD418A6F-6BF4-D119-1020-988DE76088C1">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>CC73FF18-4714-FC3C-673D-3CBC28FE7828</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7C5F005-F795-44FD-EF58-FD9F0EEE3E04" referredColumn="F0A9CF1F-5A07-709A-088A-DBCF7468B646"/>
+</associations>
+</Column>
+<Column name="Soba_Sprat_Hotel_ID_H" id="2A0441EE-84AD-5584-E413-6C9E79839589">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>572C2384-7F1F-C935-59A2-739E4F4A0A6C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7C5F005-F795-44FD-EF58-FD9F0EEE3E04" referredColumn="E0026B4E-D326-201A-E5CB-BC72965842E5"/>
+</associations>
+</Column>
+<Column name="Soba_B_SO" id="EA675BA7-98E3-65BF-B5D8-C0B7377DFD96">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>7B4D6A9A-BC4D-7A3D-A28E-DBFB639F2514</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7C5F005-F795-44FD-EF58-FD9F0EEE3E04" referredColumn="07F29F1D-9044-9096-CDE5-6F2C9832B22E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A7D9AA4-FF07-F06D-4F7F-46B4E546701B" name="Odseda_PK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>C2E6DE09-205F-FDC6-D7F6-D2FFE17892BA</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="113C1558-EAC1-F70E-D312-F4352C252314"/>
+<colUsage columnID="DD418A6F-6BF4-D119-1020-988DE76088C1"/>
+<colUsage columnID="2A0441EE-84AD-5584-E413-6C9E79839589"/>
+<colUsage columnID="EA675BA7-98E3-65BF-B5D8-C0B7377DFD96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAFF956C-E128-B357-7B1C-F0C8EFF90E6D" name="Odseda__IDX">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6614664B-10E5-6497-F052-33913D4FE829</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="113C1558-EAC1-F70E-D312-F4352C252314"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53FB16BB-EAB1-D3E6-5004-C067A50130C3" name="Odseda_ProgramIshrane_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>5CB2C0E1-F520-FD57-9F1F-69285890191E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="940020AB-F691-C0CD-7A9B-FFEF9EB21B65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4FD2FC0-E8D0-01C1-0525-D46051C1337D" name="Odseda_Klijent_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>6614664B-10E5-6497-F052-33913D4FE829</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="113C1558-EAC1-F70E-D312-F4352C252314"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7824AED-A1FF-F059-B584-E8209F84465F" name="Odseda_Bazen_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>138B9FD9-52F7-954B-189A-BD623AB00DCA</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8150FBC6-09F6-2B30-287D-4EA3C2D828BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F3F418E-5652-E78E-DF33-F3C47F7BDD89" name="Odseda_Soba_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>FEAD657D-7C79-B435-9FDA-B2E427FF6312</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD418A6F-6BF4-D119-1020-988DE76088C1"/>
+<colUsage columnID="2A0441EE-84AD-5584-E413-6C9E79839589"/>
+<colUsage columnID="EA675BA7-98E3-65BF-B5D8-C0B7377DFD96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

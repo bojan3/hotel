@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B5A0D4EA-5B6C-B60B-2737-FC26A3DBE6CE" containerWithKeyObject="3EBCA8B3-FA32-3849-5532-BDFEE0DE9B67" localFKIndex="6A7258C0-4825-6F74-CDE8-D90461C6E9E7" name="sprema_Meni_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>946E4CBC-E913-5072-ED33-047B5C31121C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Meni</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>65F53BFF-E66B-D001-D16C-A0A9B9B015CD</referredTableID>
+<keyObject>299A0010-BE2D-B2CE-036A-C3603496B0BA</keyObject>
+<referredKeyID>299A0010-BE2D-B2CE-036A-C3603496B0BA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_M</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

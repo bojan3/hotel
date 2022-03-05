@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E06C4EDD-D371-FFA2-A8B3-B416A3A677F7" name="Zaposleni">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 13:32:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="JMBG" id="9A64D8CA-43BC-D10F-3100-E69CF0DAB254">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 13:32:35 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IME" id="301A5423-10A3-CED7-27FD-1A4BA298D2F0">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 13:33:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRZ" id="51655865-236D-C86A-DC57-8669A4D10E90">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 13:33:34 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BR_T" id="FFBCF4DB-3B50-1DDB-074C-835D58CB75EA">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 13:33:56 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAT_R" id="C3FB6357-999E-7BAE-5F5F-5B935CEDD2E2">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 13:34:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_H" id="652BD2E2-C962-6660-AEB6-DBDEA42D5A8F">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:59:11 UTC</createdTime>
+<generatorID>18DF1A8D-B40A-45FA-9538-B7BFF4044C5D</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<referedAttribute>55E46994-1D42-A9A2-C932-6B4C3A99DD34</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JMBG_NAD" id="9BD25E0D-6950-3031-B49C-6B7152945A52">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:38:30 UTC</createdTime>
+<generatorID>D576E26E-34B7-67AE-0F90-97061877BB3B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9A64D8CA-43BC-D10F-3100-E69CF0DAB254</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_H_NAD" id="3CC0F8FE-CB4F-36C9-A60F-3ADFDEADDF56">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:38:30 UTC</createdTime>
+<generatorID>D576E26E-34B7-67AE-0F90-97061877BB3B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>652BD2E2-C962-6660-AEB6-DBDEA42D5A8F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3E68771-17B1-7F2C-753C-BE825EE2B8E9" name="Zaposleni PK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 13:33:09 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9A64D8CA-43BC-D10F-3100-E69CF0DAB254</attributeRef>
+<attributeRef>652BD2E2-C962-6660-AEB6-DBDEA42D5A8F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

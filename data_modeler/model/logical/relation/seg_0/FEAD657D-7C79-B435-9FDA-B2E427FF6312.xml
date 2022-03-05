@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Odseda_u" directorySegmentName="seg_0" id="FEAD657D-7C79-B435-9FDA-B2E427FF6312">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:37:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<sourcePk>C2E6DE09-205F-FDC6-D7F6-D2FFE17892BA</sourcePk>
+<targetPk>403298E3-FBF7-D6AD-A331-FDC98BEB8020</targetPk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B0B93E48-199A-EB27-0CDE-F2A334366E4E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2475EE36-54B1-8DA0-663E-F01C8476F736</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

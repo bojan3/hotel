@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A40C9DC-6019-4969-159E-E55AEA58C7FE" name="RadNaRec">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>D50D16E0-BBEC-F85B-0144-0F875C0B5602</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JMBG" id="56243CEA-A564-557F-9302-48BD85A24955">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>9A64D8CA-43BC-D10F-3100-E69CF0DAB254</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4ECBE3A5-CA99-BA87-E7EE-ACD687C29A14" referredColumn="173AAF15-512B-B8B6-74C6-89A780DF32A7"/>
+</associations>
+</Column>
+<Column name="R_TIP" id="A9B56A93-3662-F122-4F96-A18CF35C5C2D">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>761CE769-1F51-5E93-908C-442CA18EF4E6</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>30DF9DB1-35BC-D076-B3CF-BCEE7A062460</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_H" id="F6C5992A-3010-8847-9F77-E955180730CB">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>652BD2E2-C962-6660-AEB6-DBDEA42D5A8F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4ECBE3A5-CA99-BA87-E7EE-ACD687C29A14" referredColumn="FF457CD5-D981-8838-8E4A-6A4FCB0956AE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48C22EE8-E15F-91D0-CFBE-D2C1EAE01162" name="RadNaRec_PK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>A3E68771-17B1-7F2C-753C-BE825EE2B8E9</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56243CEA-A564-557F-9302-48BD85A24955"/>
+<colUsage columnID="F6C5992A-3010-8847-9F77-E955180730CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="034503D4-E3B8-2646-F9DC-6A17C379B2C4" name="RadNaRec_Zaposleni_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>8145CAF7-0DFB-FB32-CA6C-85DACBD2AF3A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56243CEA-A564-557F-9302-48BD85A24955"/>
+<colUsage columnID="F6C5992A-3010-8847-9F77-E955180730CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

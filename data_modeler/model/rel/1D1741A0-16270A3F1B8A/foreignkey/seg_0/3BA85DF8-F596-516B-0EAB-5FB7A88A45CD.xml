@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3BA85DF8-F596-516B-0EAB-5FB7A88A45CD" containerWithKeyObject="CB0D0D35-E14B-5717-8076-F6941AE7ADCF" localFKIndex="9036CF44-B56A-6916-CDA0-046EDB309871" name="RadURes_Restoran_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>0762B37E-4064-6FEE-2190-2CC6BE755085</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Restoran</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>54D067B1-C31B-B8DB-8C5F-53E799EDC50D</referredTableID>
+<keyObject>A1A9EE24-16CE-60DC-BA8C-C89C42B76C30</keyObject>
+<referredKeyID>A1A9EE24-16CE-60DC-BA8C-C89C42B76C30</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_R,Hotel_ID_H</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

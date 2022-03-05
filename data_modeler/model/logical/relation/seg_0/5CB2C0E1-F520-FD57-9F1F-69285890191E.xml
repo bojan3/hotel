@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="bira" directorySegmentName="seg_0" id="5CB2C0E1-F520-FD57-9F1F-69285890191E">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 19:16:13 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<sourcePk>C2E6DE09-205F-FDC6-D7F6-D2FFE17892BA</sourcePk>
+<targetPk>53FE6AFA-9129-44B4-E7A8-FDFE1116B448</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B0B93E48-199A-EB27-0CDE-F2A334366E4E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6A620554-9724-62B1-7B1B-9CD10B64CE74</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

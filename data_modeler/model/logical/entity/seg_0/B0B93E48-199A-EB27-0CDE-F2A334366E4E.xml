@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0B93E48-199A-EB27-0CDE-F2A334366E4E" name="Odseda">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:22:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="JMBG" id="2AEE4A2A-FD2A-412F-93C7-B629AF298298">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:24:31 UTC</createdTime>
+<generatorID>6614664B-10E5-6497-F052-33913D4FE829</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<referedAttribute>721F7ED1-C7A9-5F2F-0949-11F6F02553F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_H1" id="DE7DD016-A09C-B526-E9EB-8E0EDB204662">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:29:40 UTC</createdTime>
+<generatorID>138B9FD9-52F7-954B-189A-BD623AB00DCA</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>30C0E5F1-043F-E122-6C6B-1A8873F58BC5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_B" id="622D68D7-A62E-CEDC-1944-4BF11E5A9DD2">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:29:40 UTC</createdTime>
+<generatorID>138B9FD9-52F7-954B-189A-BD623AB00DCA</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CC50BF0D-F172-C34C-987A-79D064CC9F32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_P" id="76553D76-1C90-1740-A8EB-7F8C300A4672">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 19:17:00 UTC</createdTime>
+<generatorID>5CB2C0E1-F520-FD57-9F1F-69285890191E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6311452C-AA97-5BC9-ECDB-18D95520C883</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_S" id="CC73FF18-4714-FC3C-673D-3CBC28FE7828">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:37:32 UTC</createdTime>
+<generatorID>FEAD657D-7C79-B435-9FDA-B2E427FF6312</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<referedAttribute>F90FFB37-0773-0868-0C8C-8071512D9EF2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_H" id="572C2384-7F1F-C935-59A2-739E4F4A0A6C">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:37:32 UTC</createdTime>
+<generatorID>FEAD657D-7C79-B435-9FDA-B2E427FF6312</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<referedAttribute>1F8C8697-839F-0B75-6735-31A37C7478CB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="B_SO" id="7B4D6A9A-BC4D-7A3D-A28E-DBFB639F2514">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:37:32 UTC</createdTime>
+<generatorID>FEAD657D-7C79-B435-9FDA-B2E427FF6312</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<referedAttribute>AA6C25E1-5D82-9F59-F406-F31DA2B1D22D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C2E6DE09-205F-FDC6-D7F6-D2FFE17892BA" name="Odseda PK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:23:41 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2AEE4A2A-FD2A-412F-93C7-B629AF298298</attributeRef>
+<attributeRef>CC73FF18-4714-FC3C-673D-3CBC28FE7828</attributeRef>
+<attributeRef>572C2384-7F1F-C935-59A2-739E4F4A0A6C</attributeRef>
+<attributeRef>7B4D6A9A-BC4D-7A3D-A28E-DBFB639F2514</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

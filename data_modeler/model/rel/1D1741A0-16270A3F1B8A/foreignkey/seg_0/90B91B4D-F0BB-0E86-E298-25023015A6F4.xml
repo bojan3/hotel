@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="90B91B4D-F0BB-0E86-E298-25023015A6F4" containerWithKeyObject="D4C4908C-67B1-3122-6835-CB1EDD4BE6F1" localFKIndex="53FB16BB-EAB1-D3E6-5004-C067A50130C3" name="Odseda_ProgramIshrane_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>5CB2C0E1-F520-FD57-9F1F-69285890191E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>ProgramIshrane</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B88F3569-3C68-4CBF-79B1-DEDC61FFE741</referredTableID>
+<keyObject>642CCC1A-1B0B-DE19-1B83-7836701155BE</keyObject>
+<referredKeyID>642CCC1A-1B0B-DE19-1B83-7836701155BE</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_P</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

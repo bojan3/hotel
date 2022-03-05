@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9042132F-8A1D-58CD-4AAC-8FB615DA142A" name="Inventar">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>BF08674A-458F-B607-23AD-A6350A7C22D4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_I" id="D90202FA-ACA7-B75A-CA8C-6E047C716C8F">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>1C069018-0738-8D7E-0E4B-136C3CBBD5FD</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZ" id="BE408BF4-F319-2B77-BEAE-E8B0C9616403">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>C272325A-4280-FD26-B56C-C4F9C3744A3C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KOL" id="CF89358B-AFA3-4387-8871-535DD80788B6">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>F165439C-5614-1131-BCA1-168604352812</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Soba_Sprat_ID_S" id="49F239F5-F19A-3ADA-7FCD-706D030852BF">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>685EDE66-6DF8-80D8-B8B9-2491FF3D1626</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67BEB919-4742-E7F9-7514-390F411E216D" referredColumn="F0A9CF1F-5A07-709A-088A-DBCF7468B646"/>
+</associations>
+</Column>
+<Column name="Soba_Sprat_Hotel_ID_H" id="7DD52C83-26BE-85F4-E9D3-6E93EF2E2B22">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>FF59F226-24A5-267C-C27D-8A6899851BB6</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67BEB919-4742-E7F9-7514-390F411E216D" referredColumn="E0026B4E-D326-201A-E5CB-BC72965842E5"/>
+</associations>
+</Column>
+<Column name="Soba_B_SO" id="E9DF0E3C-4644-AEF7-5810-999324C3994C">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>6359FC79-BA07-4FE5-0684-56357E5E181D</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67BEB919-4742-E7F9-7514-390F411E216D" referredColumn="07F29F1D-9044-9096-CDE5-6F2C9832B22E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79C36920-A187-E662-5663-DD0F2D096858" name="Inventar_PK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>0548E948-CEBB-99D9-C058-DFE549312C3B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D90202FA-ACA7-B75A-CA8C-6E047C716C8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A9A12B4-D0AD-96E6-185A-0708620C6514" name="Inventar_Soba_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>5686BCB7-68F7-AB4A-F43F-5B10F09ACF91</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49F239F5-F19A-3ADA-7FCD-706D030852BF"/>
+<colUsage columnID="7DD52C83-26BE-85F4-E9D3-6E93EF2E2B22"/>
+<colUsage columnID="E9DF0E3C-4644-AEF7-5810-999324C3994C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

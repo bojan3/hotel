@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="49A98858-CB0B-928D-7028-7DFA95A6970F" containerWithKeyObject="335D32FE-BEE0-C806-EB57-E6AF5B729314" localFKIndex="0CE9A101-6E6A-83DA-D1A5-22C9D939573B" name="RadNaOd_Zaposleni_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>E7074CED-4BAC-9FE3-AEF7-35A3F7020AA4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Zaposleni</referredTableLongName>
+<arc>154DD1CE-344F-EB58-7DB9-67F630F7F7B3</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D158FEB9-6589-3156-FB8E-0F64C82FDDD7</referredTableID>
+<keyObject>66CF17FB-FA52-C9E6-DB6C-43F0913D70DC</keyObject>
+<referredKeyID>66CF17FB-FA52-C9E6-DB6C-43F0913D70DC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>JMBG,Hotel_ID_H</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>RadNaOd</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

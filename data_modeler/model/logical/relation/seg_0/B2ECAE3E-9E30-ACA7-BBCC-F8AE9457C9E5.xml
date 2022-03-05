@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="imav2" directorySegmentName="seg_0" id="B2ECAE3E-9E30-ACA7-BBCC-F8AE9457C9E5">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 15:58:14 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<sourcePk>D61A8451-2D87-EC78-7E3B-3C51BD8BBD06</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6D883B7E-A2BD-B580-A6C7-0B63120EC210</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3C308CF7-D9B1-D065-4373-73E3003A6CD2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="558074ED-58B5-D3AA-180C-5CEF7167E42C" containerWithKeyObject="3EBCA8B3-FA32-3849-5532-BDFEE0DE9B67" localFKIndex="4DEEC2D5-EE31-01C0-0DB4-0806C6B2ECE9" name="sprema_Restoran_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>946E4CBC-E913-5072-ED33-047B5C31121C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Restoran</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>54D067B1-C31B-B8DB-8C5F-53E799EDC50D</referredTableID>
+<keyObject>A1A9EE24-16CE-60DC-BA8C-C89C42B76C30</keyObject>
+<referredKeyID>A1A9EE24-16CE-60DC-BA8C-C89C42B76C30</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_R,Hotel_ID_H</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

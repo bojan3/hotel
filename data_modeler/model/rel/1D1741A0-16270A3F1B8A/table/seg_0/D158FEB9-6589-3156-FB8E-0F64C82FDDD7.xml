@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D158FEB9-6589-3156-FB8E-0F64C82FDDD7" name="Zaposleni">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>E06C4EDD-D371-FFA2-A8B3-B416A3A677F7</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JMBG" id="173AAF15-512B-B8B6-74C6-89A780DF32A7">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>9A64D8CA-43BC-D10F-3100-E69CF0DAB254</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IME" id="32AC2BFA-1A40-721F-D66C-556473033446">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>301A5423-10A3-CED7-27FD-1A4BA298D2F0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRZ" id="753C1AF1-5F47-B4C4-E346-EFEF74902B39">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>51655865-236D-C86A-DC57-8669A4D10E90</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BR_T" id="7E00139C-B633-CC0F-1AA4-3B0D4D7131CC">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>FFBCF4DB-3B50-1DDB-074C-835D58CB75EA</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_R" id="1C178531-BB70-E6B3-A307-758136EFABE3">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>C3FB6357-999E-7BAE-5F5F-5B935CEDD2E2</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hotel_ID_H" id="FF457CD5-D981-8838-8E4A-6A4FCB0956AE">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>652BD2E2-C962-6660-AEB6-DBDEA42D5A8F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="933989A1-A5DA-4C2A-5F3D-01F877553799" referredColumn="A7284B02-2331-CA3A-4DD6-D55641298E77"/>
+</associations>
+</Column>
+<Column name="Zaposleni_JMBG" id="3731B0C0-C186-0C00-781E-810BB9B03774">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>9BD25E0D-6950-3031-B49C-6B7152945A52</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB9A4EB8-746D-722A-7735-7B71C5911E17" referredColumn="173AAF15-512B-B8B6-74C6-89A780DF32A7"/>
+</associations>
+</Column>
+<Column name="Zaposleni_Hotel_ID_H" id="A9B727A4-47DF-C8BD-DB4C-C8917383798B">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>3CC0F8FE-CB4F-36C9-A60F-3ADFDEADDF56</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB9A4EB8-746D-722A-7735-7B71C5911E17" referredColumn="FF457CD5-D981-8838-8E4A-6A4FCB0956AE"/>
+</associations>
+</Column>
+<Column name="Zaposleni_TYPE" id="E75A9691-0506-35FA-A776-CD3DC5658F9A">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<constraintName>CH_INH_Zaposleni</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<listOfValues>
+<valueDef value="RadNaOd" description="entity RadNaOd"/>
+<valueDef value="RadNaRec" description="entity RadNaRec"/>
+<valueDef value="RadURes" description="entity RadURes"/>
+<valueDef value="Zaposleni" description="entity Zaposleni"/>
+</listOfValues>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66CF17FB-FA52-C9E6-DB6C-43F0913D70DC" name="Zaposleni_PK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>A3E68771-17B1-7F2C-753C-BE825EE2B8E9</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="173AAF15-512B-B8B6-74C6-89A780DF32A7"/>
+<colUsage columnID="FF457CD5-D981-8838-8E4A-6A4FCB0956AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE28AC15-3C1A-3A50-26AD-BA809281107D" name="Zaposleni_Hotel_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>18DF1A8D-B40A-45FA-9538-B7BFF4044C5D</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF457CD5-D981-8838-8E4A-6A4FCB0956AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B710193-8BEF-6DE3-71DA-2B23F88C961B" name="Zaposleni_Zaposleni_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>D576E26E-34B7-67AE-0F90-97061877BB3B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3731B0C0-C186-0C00-781E-810BB9B03774"/>
+<colUsage columnID="A9B727A4-47DF-C8BD-DB4C-C8917383798B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

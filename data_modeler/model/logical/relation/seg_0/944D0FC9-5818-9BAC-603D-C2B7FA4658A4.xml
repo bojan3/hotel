@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Održava" directorySegmentName="seg_0" id="944D0FC9-5818-9BAC-603D-C2B7FA4658A4">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 17:09:46 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<targetPk>2D92F52A-2B1C-64F9-F20D-F7E77343B8E3</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0F904D2E-E6CF-BF5F-FAF6-19231385AFCD</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0B1018B0-5482-B3EE-48D4-4E0F0F0F0446</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

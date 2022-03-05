@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0FF5AAD6-AD5C-8CAC-FF13-FAED43C847E4" containerWithKeyObject="335D32FE-BEE0-C806-EB57-E6AF5B729314" localFKIndex="84FD109A-EEB6-D6CB-55E6-94D51FEA58CF" name="RadNaOd_Sprat_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>944D0FC9-5818-9BAC-603D-C2B7FA4658A4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Sprat</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>99CBB9FF-6ABF-C82D-D35B-2553913B0EF5</referredTableID>
+<keyObject>3843C8BB-D711-5AA1-4C48-C6815162D60D</keyObject>
+<referredKeyID>3843C8BB-D711-5AA1-4C48-C6815162D60D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_S,Hotel_ID_H</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

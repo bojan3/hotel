@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A7C5F005-F795-44FD-EF58-FD9F0EEE3E04" containerWithKeyObject="D4C4908C-67B1-3122-6835-CB1EDD4BE6F1" localFKIndex="5F3F418E-5652-E78E-DF33-F3C47F7BDD89" name="Odseda_Soba_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>FEAD657D-7C79-B435-9FDA-B2E427FF6312</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Soba</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FE7E46FA-504C-F78C-91A5-077443726A35</referredTableID>
+<keyObject>A66206E3-4BB8-4199-8C50-19A28B886481</keyObject>
+<referredKeyID>A66206E3-4BB8-4199-8C50-19A28B886481</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Sprat_ID_S,Sprat_Hotel_ID_H,B_SO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

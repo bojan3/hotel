@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40F98BA4-D084-21FF-B121-C64C23F845B3" name="Bazen">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 13:03:11 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_B" id="CC50BF0D-F172-C34C-987A-79D064CC9F32">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 13:04:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZ" id="2D252331-1696-2821-D804-E35A5D75E5B5">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 13:04:32 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="M_KL" id="075A4A7C-DE85-5C7E-F09E-0CE2AFD43776">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 14:00:14 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="V_OT" id="B1ECF84B-7B58-F004-51BB-157368278153">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 14:00:46 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="V_ZA" id="4724C512-3A8F-38E3-7A3B-DE567BA7DF35">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 14:01:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_H" id="30C0E5F1-043F-E122-6C6B-1A8873F58BC5">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 14:05:22 UTC</createdTime>
+<generatorID>2A073127-0661-BE20-C7F4-BD1D517B2678</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<referedAttribute>55E46994-1D42-A9A2-C932-6B4C3A99DD34</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="079660A7-0067-1675-2128-517725231A2E" name="Bazen PK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 13:04:09 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>30C0E5F1-043F-E122-6C6B-1A8873F58BC5</attributeRef>
+<attributeRef>CC50BF0D-F172-C34C-987A-79D064CC9F32</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

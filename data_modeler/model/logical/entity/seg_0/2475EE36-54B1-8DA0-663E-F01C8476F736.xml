@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2475EE36-54B1-8DA0-663E-F01C8476F736" name="Soba">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:04:24 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_S" id="F90FFB37-0773-0868-0C8C-8071512D9EF2">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:09:04 UTC</createdTime>
+<generatorID>B440F2DD-E622-B3FF-C80B-65C3197769EE</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<referedAttribute>7CE17267-301C-81FA-06EA-C453CB369B6F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_H" id="1F8C8697-839F-0B75-6735-31A37C7478CB">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:09:04 UTC</createdTime>
+<generatorID>B440F2DD-E622-B3FF-C80B-65C3197769EE</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<referedAttribute>0C42BE70-E9E7-BAFF-A356-4F4CFF6FB66C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="B_SO" id="AA6C25E1-5D82-9F59-F406-F31DA2B1D22D">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:09:53 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KLA" id="E2A991CF-D675-F6F0-1935-E589BCA19CC1">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:12:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>76D35430-1492-6DF9-5B3D-4D356FFAB395</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STA" id="AC626EC0-56DC-C4B0-1343-8739A8AD060A">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:14:05 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C5353055-D90F-3E9A-694F-2FE645CFF927</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEL" id="0993F223-8A3C-11B0-0540-0D23F5E8017D">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:14:18 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JMBG" id="2B4AE7BB-F4A2-90C5-4BB8-7498BDB71F87">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 17:07:42 UTC</createdTime>
+<generatorID>451B172F-B0B6-7CA3-9A73-13CC44FD81DF</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9A64D8CA-43BC-D10F-3100-E69CF0DAB254</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_H1" id="B2638E57-494E-80C3-CC02-BCB3637A8FB6">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 17:07:42 UTC</createdTime>
+<generatorID>451B172F-B0B6-7CA3-9A73-13CC44FD81DF</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>652BD2E2-C962-6660-AEB6-DBDEA42D5A8F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="403298E3-FBF7-D6AD-A331-FDC98BEB8020" name="Soba PK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-08 16:09:04 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1D1741A0-2920-828D-3653-16270A3F1B8A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F90FFB37-0773-0868-0C8C-8071512D9EF2</attributeRef>
+<attributeRef>1F8C8697-839F-0B75-6735-31A37C7478CB</attributeRef>
+<attributeRef>AA6C25E1-5D82-9F59-F406-F31DA2B1D22D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

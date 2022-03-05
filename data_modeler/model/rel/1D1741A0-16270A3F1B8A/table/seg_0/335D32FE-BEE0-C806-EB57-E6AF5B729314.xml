@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="335D32FE-BEE0-C806-EB57-E6AF5B729314" name="RadNaOd">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>0F904D2E-E6CF-BF5F-FAF6-19231385AFCD</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JMBG" id="7D230661-D853-6ECF-08FE-669DC4F52FDE">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>9A64D8CA-43BC-D10F-3100-E69CF0DAB254</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49A98858-CB0B-928D-7028-7DFA95A6970F" referredColumn="173AAF15-512B-B8B6-74C6-89A780DF32A7"/>
+</associations>
+</Column>
+<Column name="Sprat_ID_S" id="1B6AA99D-40EB-D95E-374F-94A8ED2A5A99">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>3D38176B-CCA1-9997-3CD9-8345E6F574B0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FF5AAD6-AD5C-8CAC-FF13-FAED43C847E4" referredColumn="333D3253-A347-F290-B9CD-9A71B7E82E7E"/>
+</associations>
+</Column>
+<Column name="Sprat_Hotel_ID_H" id="66649598-8A0F-8239-D8FE-692B5A418DEC">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>6D40BD01-B122-B197-8962-33CE41F4FCC4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FF5AAD6-AD5C-8CAC-FF13-FAED43C847E4" referredColumn="DA44D9A0-069B-4437-BF48-50B6A04ACD7A"/>
+</associations>
+</Column>
+<Column name="BR_SO" id="4DE5C9B0-3FD8-0725-7C80-FFA4479E8637">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>233D8303-169B-70D6-B052-810D3767E746</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_H" id="69B48418-3FEB-B615-B971-1B6F0883C991">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>652BD2E2-C962-6660-AEB6-DBDEA42D5A8F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49A98858-CB0B-928D-7028-7DFA95A6970F" referredColumn="FF457CD5-D981-8838-8E4A-6A4FCB0956AE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EF73F71-27DC-64C1-24BD-595D43A9491F" name="RadNaOd_PK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>A3E68771-17B1-7F2C-753C-BE825EE2B8E9</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D230661-D853-6ECF-08FE-669DC4F52FDE"/>
+<colUsage columnID="69B48418-3FEB-B615-B971-1B6F0883C991"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CE9A101-6E6A-83DA-D1A5-22C9D939573B" name="RadNaOd_Zaposleni_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>E7074CED-4BAC-9FE3-AEF7-35A3F7020AA4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D230661-D853-6ECF-08FE-669DC4F52FDE"/>
+<colUsage columnID="69B48418-3FEB-B615-B971-1B6F0883C991"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84FD109A-EEB6-D6CB-55E6-94D51FEA58CF" name="RadNaOd_Sprat_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>944D0FC9-5818-9BAC-603D-C2B7FA4658A4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B6AA99D-40EB-D95E-374F-94A8ED2A5A99"/>
+<colUsage columnID="66649598-8A0F-8239-D8FE-692B5A418DEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

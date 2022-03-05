@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B036C212-3308-0B14-F013-52E08DA6F953" containerWithKeyObject="FE7E46FA-504C-F78C-91A5-077443726A35" localFKIndex="1BC6395F-7673-37F9-B1EE-7B3247FFD18C" name="Soba_RadNaRec_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>451B172F-B0B6-7CA3-9A73-13CC44FD81DF</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>RadNaRec</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9A40C9DC-6019-4969-159E-E55AEA58C7FE</referredTableID>
+<keyObject>48C22EE8-E15F-91D0-CFBE-D2C1EAE01162</keyObject>
+<referredKeyID>48C22EE8-E15F-91D0-CFBE-D2C1EAE01162</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>JMBG,ID_H</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

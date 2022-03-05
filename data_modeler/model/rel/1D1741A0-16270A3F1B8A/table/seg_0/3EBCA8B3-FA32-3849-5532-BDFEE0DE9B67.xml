@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EBCA8B3-FA32-3849-5532-BDFEE0DE9B67" name="sprema">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Meni_ID_M" id="70390F60-ACFE-2119-1A42-01152CB76A5A">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5A0D4EA-5B6C-B60B-2737-FC26A3DBE6CE" referredColumn="4E404864-3C15-5035-69E2-68B03B29FED6"/>
+</associations>
+</Column>
+<Column name="Restoran_ID_R" id="EFBC305B-EE6D-A984-EC39-0FEFEC7D4EF1">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="558074ED-58B5-D3AA-180C-5CEF7167E42C" referredColumn="BDC6CF9A-9735-67F9-E321-F46568250870"/>
+</associations>
+</Column>
+<Column name="Restoran_Hotel_ID_H" id="A9C6F7D1-CE47-46D3-DBAC-037367EB7057">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="558074ED-58B5-D3AA-180C-5CEF7167E42C" referredColumn="A45B15AF-F790-D094-7127-8BAEC5A0D0B1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="367C315F-78A0-C728-15BB-A096202D06A7" name="sprema_PK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70390F60-ACFE-2119-1A42-01152CB76A5A"/>
+<colUsage columnID="EFBC305B-EE6D-A984-EC39-0FEFEC7D4EF1"/>
+<colUsage columnID="A9C6F7D1-CE47-46D3-DBAC-037367EB7057"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A7258C0-4825-6F74-CDE8-D90461C6E9E7" name="sprema_Meni_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>946E4CBC-E913-5072-ED33-047B5C31121C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70390F60-ACFE-2119-1A42-01152CB76A5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DEEC2D5-EE31-01C0-0DB4-0806C6B2ECE9" name="sprema_Restoran_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>946E4CBC-E913-5072-ED33-047B5C31121C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFBC305B-EE6D-A984-EC39-0FEFEC7D4EF1"/>
+<colUsage columnID="A9C6F7D1-CE47-46D3-DBAC-037367EB7057"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE7E46FA-504C-F78C-91A5-077443726A35" name="Soba">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>2475EE36-54B1-8DA0-663E-F01C8476F736</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sprat_ID_S" id="F0A9CF1F-5A07-709A-088A-DBCF7468B646">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>F90FFB37-0773-0868-0C8C-8071512D9EF2</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5BA4EED-2699-AE53-EF3C-083CE62EB493" referredColumn="333D3253-A347-F290-B9CD-9A71B7E82E7E"/>
+</associations>
+</Column>
+<Column name="Sprat_Hotel_ID_H" id="E0026B4E-D326-201A-E5CB-BC72965842E5">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>1F8C8697-839F-0B75-6735-31A37C7478CB</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5BA4EED-2699-AE53-EF3C-083CE62EB493" referredColumn="DA44D9A0-069B-4437-BF48-50B6A04ACD7A"/>
+</associations>
+</Column>
+<Column name="B_SO" id="07F29F1D-9044-9096-CDE5-6F2C9832B22E">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>AA6C25E1-5D82-9F59-F406-F31DA2B1D22D</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KLA" id="EF188CA8-B705-6D0C-EA5A-B29146DF10AD">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>E2A991CF-D675-F6F0-1935-E589BCA19CC1</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>76D35430-1492-6DF9-5B3D-4D356FFAB395</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STA" id="B2EF02F5-D1AE-2711-E71F-5451489EAF0C">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>AC626EC0-56DC-C4B0-1343-8739A8AD060A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C5353055-D90F-3E9A-694F-2FE645CFF927</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEL" id="90210E0A-845B-52EE-D702-2EFBFB702D5F">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>0993F223-8A3C-11B0-0540-0D23F5E8017D</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RadNaRec_JMBG" id="F431648C-544E-A942-267D-6A32CF1B99D4">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>2B4AE7BB-F4A2-90C5-4BB8-7498BDB71F87</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B036C212-3308-0B14-F013-52E08DA6F953" referredColumn="56243CEA-A564-557F-9302-48BD85A24955"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A66206E3-4BB8-4199-8C50-19A28B886481" name="Soba_PK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>403298E3-FBF7-D6AD-A331-FDC98BEB8020</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0A9CF1F-5A07-709A-088A-DBCF7468B646"/>
+<colUsage columnID="E0026B4E-D326-201A-E5CB-BC72965842E5"/>
+<colUsage columnID="07F29F1D-9044-9096-CDE5-6F2C9832B22E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="115E3E5E-720B-0026-B6A9-E291B7855C79" name="Soba_Sprat_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>B440F2DD-E622-B3FF-C80B-65C3197769EE</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0A9CF1F-5A07-709A-088A-DBCF7468B646"/>
+<colUsage columnID="E0026B4E-D326-201A-E5CB-BC72965842E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BC6395F-7673-37F9-B1EE-7B3247FFD18C" name="Soba_RadNaRec_FK">
+<createdBy>winBrt</createdBy>
+<createdTime>2022-01-09 14:55:00 UTC</createdTime>
+<generatorID>451B172F-B0B6-7CA3-9A73-13CC44FD81DF</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F431648C-544E-A942-267D-6A32CF1B99D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
